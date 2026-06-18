@@ -1,0 +1,3 @@
+[[IgnoredVulns]]
+id = "GHSA-h67p-54hq-rp68"
+reason = "js-yaml vulnerability is in jest/ts-jest dev dependency chain; not present in the production dist bundle and never executed in GitHub Actions runtime."
